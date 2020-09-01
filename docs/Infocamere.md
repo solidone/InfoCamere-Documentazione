@@ -57,5 +57,3 @@ Infocamere QTSP è conforme inoltre alle norme UNI EN ISO 9001 e ISO IEC 27001 (
 Email: test@test.it
 
 Fax: 08000000
-
-CICOCICICICICICICICICICIICICICCCICICICICICIICICIC
