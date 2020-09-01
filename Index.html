@@ -276,7 +276,7 @@ if (document.cookie.indexOf('cookies_consent=true') === -1) {
       <div class="col-3 m_side_doc">
         <ul class="ul-mod fat-ul">
           <li class="li-hide li-active p10 m10">
-            <a href="javascript:void(0)" data-file="infocamere">
+            <a href="javascript:load_content(0)" data-file="infocamere">
               Infocamere QTSP
             </a>
           </li>
@@ -284,7 +284,7 @@ if (document.cookie.indexOf('cookies_consent=true') === -1) {
             <a class="accordion m10">Condizioni di servizio</a>
             <ul class="panel ul-mod p-0">
               <li class="li-hide">
-                <a href="javascript:void(0)" class="p10" data-file="manualeoperativo">Manuale Operativo</a>
+                <a href="javascript:load_content(1)" class="p10" data-file="manualeoperativo">Manuale Operativo</a>
               </li>
               <li class="li-hide">
                 <a href="javascript:void(0)" class="p10" data-file="contratto">Contratto</a>
@@ -537,8 +537,20 @@ if (document.cookie.indexOf('cookies_consent=true') === -1) {
       
     })
 
+    function load_content(index){
+      if(index==0){
+        $('.content_side_doc').load('docs/Infocamere.html', function() {
+      });
+      }
+      else if(index==1){
+        $('.content_side_doc').load('docs/manualeoperativo.html', function() {
+      });
+      }
+    }
 
-
+    $(document).ready(()=>{
+      load_content(0);
+    });
 
     </script>
 
