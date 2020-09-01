@@ -1,0 +1,23 @@
+.content_side_doc h1{
+    color:#0F54A2;
+    font-size:28px;
+}
+
+.content_side_doc h3{
+    background-color:#DCE9FF;
+    color:black;
+    font-size:20px;
+    padding:10px;
+}
+
+.content_side_doc li{
+    font-weight:bold;
+}
+
+.fa-file-pdf{
+    color:red;
+}
+
+.fa-file-alt{
+    color:#0F54A2;
+}
